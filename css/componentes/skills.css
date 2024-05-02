@@ -1,0 +1,18 @@
+.skills{
+    scroll-margin-top: 15rem;
+}
+
+.skills .skills__content{
+    padding: 6rem;
+    text-align: center;
+}
+
+.skills .skills__content .description{
+    max-width: 56rem;
+    margin: 0 auto 2rem;
+}
+
+.skills .skills__content ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}

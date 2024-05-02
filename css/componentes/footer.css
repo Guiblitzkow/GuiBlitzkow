@@ -1,0 +1,28 @@
+.skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+    background-color: white; /* Define o fundo como branco */
+}
+
+.skills__content {
+    flex: 1;
+    margin-top: 2rem; /* Ajuste a distância do topo conforme necessário */
+}
+
+.skills__content p {
+    text-align: justify; /* Alinha o texto à direita */
+}
+
+.skills__right img {
+    max-width: 100%; /* Defina a largura máxima da imagem */
+    height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
+}
+
+.skills__right {
+    flex: 1;
+    display: flex;
+    align-items: flex-start; /* Alinha a imagem na parte superior */
+    justify-content: flex-start; /* Alinha a imagem à esquerda */
+}
