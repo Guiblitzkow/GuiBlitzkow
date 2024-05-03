@@ -1,5 +1,7 @@
-.skills{
-    scroll-margin-top: 15rem;
+.skills {
+    display: flex; 
+    flex-direction: row-reverse; 
+    align-items: flex-start; 
 }
 
 .skills .skills__content{
@@ -7,12 +9,17 @@
     text-align: center;
 }
 
-.skills .skills__content .description{
-    max-width: 56rem;
-    margin: 0 auto 2rem;
+.skills .skills__content .image-container {
+    max-width: 100x; 
+    margin-right: 10px; 
 }
 
-.skills .skills__content ul{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+.skills .skills__content .image-container img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.skills .skills__right img {
+    max-width: 100%; 
+    height: auto; 
 }
