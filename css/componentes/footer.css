@@ -1,28 +1,56 @@
-.skills {
+/* Estilos para o rodapé */
+#footer {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer__content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tertiary-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.contact {
+    margin-top: 30px;
+    text-align: center; /* Para centralizar o conteúdo da classe .contact */
+}
+
+.contact p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact span {
+    display: block;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a imagem */
+.contact img {
+    display: block;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    margin-bottom: 20px; /* Adicionar espaço entre a imagem e os ícones das redes sociais */
+}
+
+/* Estilos para as redes sociais */
+.social-media {
     display: flex;
-    justify-content: space-between;
-    gap: 4rem;
-    scroll-margin-top: 20rem;
-    background-color: white; /* Define o fundo como branco */
+    justify-content: center;
+    margin-top: 20px; /* Adicionar margem superior para espaçamento */
 }
 
-.skills__content {
-    flex: 1;
-    margin-top: 2rem; /* Ajuste a distância do topo conforme necessário */
+.social-media a {
+    margin: 0 5px; /* Espaçamento horizontal mínimo */
 }
 
-.skills__content p {
-    text-align: justify; /* Alinha o texto à direita */
-}
-
-.skills__right img {
-    max-width: 100%; /* Defina a largura máxima da imagem */
-    height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
-}
-
-.skills__right {
-    flex: 1;
-    display: flex;
-    align-items: flex-start; /* Alinha a imagem na parte superior */
-    justify-content: flex-start; /* Alinha a imagem à esquerda */
+.social-media img {
+    max-width: 30px; /* Defina o tamanho máximo desejado */
 }
