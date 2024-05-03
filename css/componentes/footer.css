@@ -1,4 +1,3 @@
-/* Estilos para o rodapé */
 #footer {
     background-color: #f9f9f9;
     padding: 50px 0;
@@ -17,7 +16,7 @@
 
 .contact {
     margin-top: 30px;
-    text-align: center; /* Para centralizar o conteúdo da classe .contact */
+    text-align: center;
 }
 
 .contact p {
@@ -33,24 +32,23 @@
     margin-bottom: 10px;
 }
 
-/* Estilos para a imagem */
+
 .contact img {
     display: block;
-    margin: 0 auto; /* Centralizar horizontalmente */
-    margin-bottom: 20px; /* Adicionar espaço entre a imagem e os ícones das redes sociais */
+    margin: 0 auto; 
+    margin-bottom: 20px; 
 }
 
-/* Estilos para as redes sociais */
 .social-media {
     display: flex;
     justify-content: center;
-    margin-top: 20px; /* Adicionar margem superior para espaçamento */
+    margin-top: 20px; 
 }
 
 .social-media a {
-    margin: 0 5px; /* Espaçamento horizontal mínimo */
+    margin: 0 5px; 
 }
 
 .social-media img {
-    max-width: 30px; /* Defina o tamanho máximo desejado */
+    max-width: 30px; 
 }
