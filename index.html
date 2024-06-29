@@ -1,80 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!--Meta tags-->
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--title-->
+    <!-- Title -->
     <title>Guilherme Camargo Blitzkow Portifólio</title>
-    <!--CSS-->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/extends.css">
-    <!--Fonts-->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
-      rel="stylesheet"
-     /> 
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <style>
+        .projects__item a {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <!--navbar-->
+    <!-- Navbar -->
     <nav class="navbar">
-        <div class="navbar__content max-width mb-0"> 
+        <div class="navbar__content max-width mb-0">
             <ul class="navbar__links">
                 <li><a href="#header">Inicio</a></li>
                 <li><a href="#about">Sobre mim</a></li>
-                <li><a href="#skills">conhecimentos</a></li>
+                <li><a href="#skills">Conhecimentos</a></li>
+                <li><a href="#projects">Meus Projetos</a></li>
                 <li><a href="#footer">Contato</a></li>
             </ul>
             <div class="navbar__mobile">
-                <img src="assets/menu.svg/menu.svg" alt="menu" class="burguer"/>
+                <img src="assets/menu.svg/menu.svg" alt="menu" class="burguer" />
                 <ul class="mobile__links">
-                <li><a href="#header">Inicio</a></li>
-                <li><a href="#about">Sobre mim</a></li>
-                <li><a href="#skills">conhecimentos</a></li>
-                <li><a href="#footer">Contato</a></li>
-               </ul>
+                    <li><a href="#header">Inicio</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#skills">Conhecimentos</a></li>
+                    <li><a href="#projects">Meus Projetos</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                </ul>
             </div>
         </div>
-        
     </nav>
 
-    <!--header-->
+    <!-- Header -->
     <header id="header" class="max-width">
         <div class="header__left">
-            <h1> Guilherme Camargo Blitzkow</h1>
+            <h1>Guilherme Camargo Blitzkow</h1>
             <h2>Futuro Engenheiro de Software</h2>
             <p>
-                A cada dia que passa tento buscar mais e mais, para expandir e melhorar meu conhecimento. Eu sei que através do meu esforço tudo será possível e não vejo a hora disso acontecer
-            </p> 
+                A cada dia que passa tento buscar mais e mais, para expandir e melhorar meu conhecimento. Eu sei que através do meu esforço tudo será possível e não vejo a hora disso acontecer.
+            </p>
             <a href="#about" class="btn btn-primary">Saiba Mais!</a>
         </div>
         <div class="header__right">
-            <div class="header__image"> 
+            <div class="header__image">
                 <img src="assets/Guilherme-Camargo-Blitzkow.png/eu (1).jpg" alt="Guilherme Camargo Blitzkow" class="Guilherme">
             </div>
         </div>
     </header>
 
-    <!--Sobre-->
+    <!-- Sobre -->
     <section id="about" class="about max-width">
         <div class="about__left">
             <h2 class="secondary-title">Um pouco sobre mim</h2>
-            <p>
-                Olá, meu nome é Guilherme Camargo Blitzkow 
-            </p>
+            <p>Olá, meu nome é Guilherme Camargo Blitzkow.</p>
             <p>
                 Vou falar um pouco sobre mim, tenho 18 anos, moro em São José dos Pinhais. No momento trabalho, mas não trabalho na área de Software ou algo próximo. Eu estudo Engenharia de Software na Unicesumar e
-                estou no 3 período no momento. Procuro uma oportunidade para expandir e melhorar meus conhecimentos. Eu farei de tudo para isso acontecer pois esse é meu sonho. 
+                estou no 3 período no momento. Procuro uma oportunidade para expandir e melhorar meus conhecimentos. Eu farei de tudo para isso acontecer pois esse é meu sonho.
             </p>
         </div>
         <div class="about__right">
             <img src="assets/pc.png/frontend.webp" alt="pc">
         </div>
     </section>
-    
 
-    <!--habilidades-->
+    <!-- Habilidades -->
     <section id="skills" class="skills">
         <div class="skills__content max-width">
             <h2 class="tertiary-title">Meus conhecimentos</h2>
@@ -85,31 +85,51 @@
                     </div>
                     <p>
                         Eu não tenho nenhuma experiência com programação ainda, mas tenho conhecimento básico em HTML
-                        e CSS, estou me aprimorando no Java no momento, pois sei que é uma das linguagens de 
-                        programação mais complexas e difíceis. Fora a programação, tenho inglês básico e quero me 
-                        aprimorar a cada dia mais, não apenas para a programação, mas para ter conhecimento básico 
-                        para a vida
+                        e CSS, estou me aprimorando no Java no momento, pois sei que é uma das linguagens de
+                        programação mais complexas e difíceis. Fora a programação, tenho inglês básico e quero me
+                        aprimorar a cada dia mais, não apenas para a programação, mas para ter conhecimento básico
+                        para a vida.
                     </p>
                 </li>
             </ul>
         </div>
         <div class="skills__right">
-            <img src="assets/conhecimentos.png/frontend2.jpg" alt="skills">
+            <img src="assets/conhecimentos.png/cdg.avif" alt="skills">
         </div>
     </section>
-    
-    
-    <!--footer-->
+
+    <!-- Projetos -->
+    <section id="projects" class="projects">
+        <div class="projects__content max-width">
+            <h2 class="tertiary-title">Meus Projetos</h2>
+            <ul>
+                <li class="projects__item">
+                    <p><strong>Projeto 1:</strong> <a href="https://github.com/Guiblitzkow/Todo-List" target="_blank">Meu primeiro projeto</a></p>
+                    <p>Este foi meu primeiro projeto, onde fiz um trabalho sobre Todo-List.</p>
+                </li>
+                <li class="projects__item">
+                    <p><strong>Projeto 2:</strong> <a href="https://github.com/Guiblitzkow/api-fetch-cep" target="_blank">Projeto Cep</a></p>
+                    <p>Projeto onde fiz um site, com objetivo de colocar cep e suas caracteristicas e salvar no LocalStore.</p>
+                </li>
+                <li class="projects__item">
+                    <p><strong>Projeto 3:</strong> <a href="https://github.com/Guiblitzkow/jogo-da-velha" target="_blank">jogo-da-velha</a></p>
+                    <p>Esse trabalho foi feito em grupo, onde tive que fazer um jogo da velha.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer id="footer">
         <div class="footer__content max-width mb-0">
             <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
             <div class="contact">
-                <img src="assets/iphone.png/phone.png " alt="phone">
+                <img src="assets/iphone.png/phone.png" alt="phone">
                 <p class="mb-m">
-                    Se você gostou do meu perfil, ou quer me contatar, fico muito feliz e espero que posso ajudá-lo
+                    Se você gostou do meu perfil, ou quer me contatar, fico muito feliz e espero que posso ajudá-lo.
                 </p>
                 <div class="footer__content mb-b">
-                    <span class="mb-b">Guiblitzkow052@gmail.com</span>
+                    <span class="mb-b">Meucontato@gmail.com</span>
                     <span class="mb-b">Telefone: 41 996946499</span>
                 </div>
                 <div class="social-media">
@@ -120,10 +140,8 @@
             </div>
         </div>
     </footer>
-    
-  
-     
-    <!--script-->  
+
+    <!-- Script -->
     <script src="scripts/index.js"></script>
 </body>
 </html>
