@@ -1,1 +1,1 @@
-Olá, meu nome é Guilherme Camargo Blitzkow e esse é meu portifolio para a aula de front end
+Olá, meu nome é Guilherme Camargo Blitzkow e esse são meus projetos feitos.
